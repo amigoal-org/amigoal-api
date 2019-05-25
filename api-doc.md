@@ -27,3 +27,21 @@ response
     token: string
 }
 ```
+## goal
+### /goal
+#### get
+#### post
+header
+```
+{
+    auth: user's token
+}
+```
+body
+```
+{
+    title: string,
+    body: string,
+    targetDate: string (mm-dd-yyyy)
+}
+```
