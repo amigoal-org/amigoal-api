@@ -64,7 +64,7 @@ body
     targetDate: string (mm-dd-yyyy)
 }
 ```
-### goal/<goalId>
+### /goal/goalId
 #### get
 ```
 {
@@ -84,7 +84,7 @@ body
 }
 ```
 ## comment
-### /comment/<goalId>
+### /comment/goalId
 headers
 ```
     auth: user's token
@@ -95,7 +95,7 @@ body
     text: string
 ```
 ## follow
-### /follow/<goalId>
+### /follow/goalId
 headers
 ```
     auth: user's token
