@@ -1,7 +1,7 @@
 # amigoal api documentation
-## users
+## user
 ### register
-#### /users/register
+#### /user/register
 ##### post
 body
 ```
@@ -12,7 +12,7 @@ body
 }
 ```
 ### login
-#### /users/login
+#### /user/login
 ##### post
 body
 ```
