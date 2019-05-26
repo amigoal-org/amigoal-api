@@ -1,4 +1,5 @@
 # amigoal api documentation
+__Table of Contents__
 ## user
 ### register
 #### /user/register
@@ -61,10 +62,11 @@ body
 {
     title: string,
     body: string,
+    tags: [string, ...]
     targetDate: string (mm-dd-yyyy)
 }
 ```
-### /goal/goalId
+### goal/<goalId>
 #### get
 ```
 {
@@ -84,7 +86,7 @@ body
 }
 ```
 ## comment
-### /comment/goalId
+### /comment/<goalId>
 headers
 ```
     auth: user's token
@@ -95,9 +97,19 @@ body
     text: string
 ```
 ## follow
-### /follow/goalId
+### /follow/<goalId>
 headers
 ```
     auth: user's token
 ```
 #### post
+## tags
+```
+    auth: user's token
+```
+### /tags
+#### get
+body
+```
+[string, ...]
+```
