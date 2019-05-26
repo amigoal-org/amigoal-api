@@ -51,7 +51,8 @@ response
                 author: string,
                 text: string
             },
-       ]
+       ],
+       tags: [string, ...]
     },
     ...
 ]
